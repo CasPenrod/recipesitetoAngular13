@@ -1,0 +1,28 @@
+<form data-netlify="true" onSubmit="submit" method="POST">
+  <div class="form-group mx-auto">
+    <label for="fname">First Name:</label>
+    <input type="text" class="form-control" id="fname" />
+    <label> Last Name:</label>
+    <input type="text" class="form-control" />
+    <label> Email: </label>
+    <input type="email" class="form-control" />
+    <label for="HowCanIHelp">How Can I Help?</label>
+    <select class="form-control" name="How Can I Help" id="HowCanIHelp">
+      <option value="--Pick One--">--Pick One--</option>
+      <option value="Website help">Website Help</option>
+      <option value="Recommendation">Recommendation</option>
+      <option value="Mailing List">Join our e-mail list</option>
+      <option value="Recipe Help">Recipe Help</option>
+      <option value="Other">Other</option>
+    </select>
+    <label for="Comments">Comments:</label>
+    <textarea
+      class="form-control"
+      id="Comments"
+      name="Comments"
+      rows="15"
+      maxlength="1000"
+    ></textarea>
+    <input type="submit" />
+  </div>
+</form>

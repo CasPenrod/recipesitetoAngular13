@@ -1,0 +1,55 @@
+<body>
+  <div>
+    <div class="row">
+      <div class="col">
+        <h1 class="text-center">Black Bean Fajitas</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <p class="text-center">| Serves 4 | Prep 5 minutes | Cook 6 hours |</p>
+      </div>
+    </div>
+    <div class="row container-fluid">
+      <div class="col-lg-5 videopadding">
+        <iframe
+          class="howtovideo"
+          src="https://www.youtube.com/embed/jYDT1z6O27k"
+          title="How to make Fajitas"
+        ></iframe>
+      </div>
+      <div class="col-lg-3 mb-5 pb-5">
+        <table class="table-bordered table-hover text-center">
+          <thead>
+            <tr>
+              <th>Quantity</th>
+              <th>Ingredient</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let item of ingredients">
+              <td>{{ item.quantity }}</td>
+              <td>{{ item.ingredient }}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="col-lg-4">
+        <h3>Freezer Meal Preparation</h3>
+        <ol>
+          <li class="text">Chop onion to desired size</li>
+          <li>Drain and rinse black beans</li>
+          <li>Add Black beans and onion to large freezer safe bag</li>
+          <li>Mix spices together with the black beans and onion</li>
+          <li>Flatten and store in the freezer</li>
+        </ol>
+        <h3>Cooking Directions</h3>
+        <ol>
+          <li>Defrost in fridge over night</li>
+          <li>Place in slow cooker and cook on low for 8 hours</li>
+          <li>Serve on torillas and top with Guac, Sour Cream, and Cheese</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+</body>

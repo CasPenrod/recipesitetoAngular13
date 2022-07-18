@@ -1,0 +1,63 @@
+body {
+  background-color: #e8f7f9;
+}
+
+h1 {
+  color: #10506c;
+  font-family: Papyrus, fantasy;
+  margin-top: 5%;
+  margin-bottom: 2%;
+}
+
+h2 {
+  color: #10506c;
+  font-family: Papyrus, fantasy;
+}
+
+h3 {
+  color: #000000;
+  font-family: Papyrus, fantasy;
+}
+
+p {
+  color: #000000;
+  font-family: Arial, Helvectica, sans-serif;
+}
+
+ol {
+  color: #000000;
+  font-family: Arial, Helvectica, sans-serif;
+  list-style-position: inside;
+}
+
+.logo {
+  width: 25px;
+  height: 25px;
+  transition: width 4s, height 4s;
+}
+
+.logo:hover {
+  width: 75px;
+  height: 75px;
+}
+
+.howtovideo {
+  width: auto;
+  height: 400px;
+  box-shadow: 2px 2px 2px 2px #b7bfc0;
+}
+.videopadding {
+  padding-left: 150px;
+}
+
+#footer {
+  position: fixed;
+  left: 0px;
+  bottom: 0px;
+  height: 30px;
+  width: 100%;
+  font-family: Arial, Helvectica, sans-serif;
+  font-size: 12px;
+  background-color: #ededed;
+  margin-top: 3%;
+}
